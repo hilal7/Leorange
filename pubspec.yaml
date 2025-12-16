@@ -1,0 +1,47 @@
+name: tezproje
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_tts: ^3.8.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  pie_chart: ^5.4.0
+  flutter_localizations:
+    sdk: flutter
+  animate_do: ^4.2.0
+  http: ^1.2.3
+  google_sign_in: ^6.3.0
+  shared_preferences: ^2.1.1
+  speech_to_text: ^7.3.0
+  flutter_sound: ^9.2.13
+  table_calendar: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+  intl: 0.20.2
+  cupertino_icons: ^1.0.8
+  flutter_lints: ^6.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/play.png
+    - assets/logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#2c2732"
+  adaptive_icon_foreground: "assets/play.png"

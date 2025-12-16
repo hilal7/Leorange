@@ -1,0 +1,23 @@
+# Flutter
+.dart_tool/
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
